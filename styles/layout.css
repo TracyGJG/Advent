@@ -1,0 +1,57 @@
+* {
+	box-sizing: border-box;
+}
+header {
+	text-align: center;
+	margin: 40px auto 0;
+	height: 40px;
+}
+article {
+	position: absolute;
+	top: 80px;
+	width: 100%;
+	height: 600px;
+	text-align: center;
+}
+article img {
+	height: 100%;
+	margin: 0 auto;
+}
+div.calendar {
+	height: 600px;
+	margin: 0 auto;
+}
+main.land div.calendar {
+	width: 800px;
+}
+main.port div.calendar {
+	width: 450px;
+}
+div.calendar div {
+	float: right;
+}
+main.land div.calendar div {
+	margin: 8px 10px 0 2px;
+	padding-top: 6%;
+	width: 120px;
+	height: 140px;
+}
+main.port div.calendar div {
+	margin: 12px 10px 0 0;
+	padding-top: 5%;
+	width: 100px;
+	height: 86px;
+}
+div.calendar div.today {
+	cursor: pointer;
+}
+footer {
+	position: absolute;
+	top: 700px;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+}
+footer h2 {
+	margin: 0;
+}

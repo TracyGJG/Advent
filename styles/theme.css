@@ -1,0 +1,28 @@
+body {
+	background-color: #0DF;
+}
+
+div.calendar div {
+	font-size: 2em;
+}
+div.calendar div.today {
+	border: 1px solid white;
+	color: white;
+	font-weight: bold;
+}
+div.calendar div.future {
+	border: 1px solid red;
+	color: red;
+}
+div.calendar div.history {
+	border: 1px solid lime;
+	color: lime;
+}
+
+main {
+	visibility: hidden;
+}
+main.land,
+main.port {
+	visibility: visible;
+}
