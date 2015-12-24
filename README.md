@@ -1,2 +1,2 @@
 # Advent
-An Adevnt Calendar based on vanilla JavaScript
+An Advent Calendar based on vanilla JavaScript
