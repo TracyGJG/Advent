@@ -1,6 +1,6 @@
 # Advent
 
-An Advent Calendar based on vanilla JavaScript.
+An Advent Calendar based on vanilla JavaScript
 
 ---
 
